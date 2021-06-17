@@ -6,7 +6,7 @@ import { setAuthedUser } from "./authedUser";
 const AUTHED_ID = 'tylermcginnis'
 
 export function handleReceiveData(){
-    return(dispatch){
+    return(dispatch) => {
         return getInitialData()
             .then(({users, tweets}) => 
             {
